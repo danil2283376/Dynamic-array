@@ -10,7 +10,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             // int лист
-            Generic<int> generic = new Generic<int>(); // Упражнения по C# Обобщения, Задание № 2
+            Generic<int> generic = new Generic<int>()
             generic.Add(228);
             generic.Add(337);
             generic.Add(1337);
